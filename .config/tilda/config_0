@@ -1,6 +1,6 @@
 tilda_config_version="1.5.0"
 command=""
-font="Monospace 11"
+font="Terminus 11"
 key="<Alt>minus"
 addtab_key="<Shift><Control>t"
 fullscreen_key="F11"

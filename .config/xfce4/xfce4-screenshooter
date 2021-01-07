@@ -1,8 +1,8 @@
 app=gimp-2.10
 last_user=
-screenshot_dir=file:/home/noname
+screenshot_dir=file:/home/noname/Desktop
 action=1
 delay=3
-region=1
+region=3
 show_mouse=1
 
