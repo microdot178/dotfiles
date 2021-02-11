@@ -2,7 +2,7 @@ app=gimp-2.10
 last_user=
 screenshot_dir=file:/home/noname/Desktop
 action=1
-delay=3
-region=3
+delay=1
+region=1
 show_mouse=1
 

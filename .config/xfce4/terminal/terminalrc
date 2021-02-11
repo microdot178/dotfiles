@@ -28,8 +28,12 @@ MiscSearchDialogOpacity=100
 MiscShowUnsafePasteDialog=TRUE
 ScrollingLines=15000
 ScrollingBar=TERMINAL_SCROLLBAR_NONE
-BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
-BackgroundDarkness=0.890000
+BackgroundDarkness=0.800000
 FontName=Terminus 12
 ColorPalette=rgb(0,0,0);rgb(170,0,0);rgb(40,32,185);rgb(170,85,0);rgb(0,0,170);rgb(170,0,170);rgb(0,170,170);rgb(170,170,170);rgb(85,85,85);rgb(255,85,85);rgb(43,26,198);rgb(255,255,85);rgb(85,85,255);rgb(255,85,255);rgb(85,255,255);rgb(255,255,255)
+ColorBackground=#000000000000
+BackgroundMode=TERMINAL_BACKGROUND_TRANSPARENT
+ColorForeground=#9999c1c1f1f1
+CellWidthScale=1.100000
+CellHeightScale=1.100000
 

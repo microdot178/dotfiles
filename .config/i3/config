@@ -115,6 +115,7 @@ set $ws7 "7"
 set $ws8 "8"
 set $ws9 "9"
 set $ws10 "10"
+set $ws12 "12"
 
 # switch to workspace
 bindsym $mod+1 workspace number $ws1
@@ -186,8 +187,13 @@ set $transparent #00000000
 for_window [class="^.*"] border pixel 0
 
 bindsym $mod+Print exec xfce4-screenshooter
-bindsym $mod+p exec /home/noname/random/sublime_text_3/sublime_text
+bindsym $mod+p exec code
 bindsym $mod+o exec $HOME/pycharm-community-2020.3/bin/pycharm.sh
+
+
+#assign [title=polybar_hider] workspace 10 
+
+bindcode $mod+151 exec polybar_hide
 
 exec pulseaudio --start
 exec tilda
@@ -204,5 +210,5 @@ client.placeholder #000000 #0c0c0c #ffffff #000000 #0c0c0c
 bindcode 233 exec brightnessctl s 20%+
 bindcode 232 exec brightnessctl s 20%-
 
-exec conky
+#exec conky
 exec_always --no-startup-id $HOME/.config/polybar/launch.sh
